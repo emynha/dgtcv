@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+	.text-nav,
+	.avt-img {
+		display: none;
+	}
+	#nav-bar {
+		height: auto;
+		display: block;
+	}
+	#nav-bar a:link,
+	a:visited {
+		display: block;
+		border-left: none;
+		border-right: none !important;
+		text-align: left;
+	}
+	#about .about-flex {
+		display: none;
+	}
+	#personal-info {
+		padding-right: 25px;
+	}
+	.cer-content {
+		border-left: 0;
+		border-top: 2px solid #d6c08d;
+		padding-top: 20px;
+		flex-direction: column;
+	}
+	#footer a:link,
+	a:visited {
+		padding-right: 10px;
+	}
+	.border0 {
+		border-right: none !important;
+	}
+	.border1 {
+		order: 1;
+		margin-top: 0;
+		border-top: 20px solid blue;
+		border-bottom: none !important;
+		border-right: 14px solid blue;
+	}
+	.border2 {
+		margin-top: 0;
+		/* margin-bottom: 0; */
+		border-right: 14px solid blue;
+	}
+	.border3 {
+		order: 1;
+		border-left: none !important;
+		border-top: 20px solid blue;
+		border-right: 14px solid blue;
+	}
+	.border4 {
+		margin-top: 0;
+		border-top: none !important;
+		border-left: 16px solid blue;
+	}
+}
